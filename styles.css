@@ -1,0 +1,156 @@
+* {
+     margin : 0px;
+     padding : 0px;
+     font-family: cursive;
+  }
+  body{
+      margin: 5%;
+      line-height: 25px;
+      background: conic-gradient(from 180deg at 50% 50%, #80BF82 0deg, #D9F2DA 193.12deg, #80BF82 360deg);
+
+  }
+ header > img{
+      display: block;
+      margin: 0px auto;
+      min-height: auto;
+    max-width: 32vw;
+
+  }
+  nav ul {
+      text-align: center;
+      font-style: none;
+      margin-top: 20px;
+       background-color: #183219; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+  }
+  nav li {
+    display: inline-block;
+    padding: 10px;
+    font-size: larger;
+    
+  }
+  nav a{
+    text-decoration: none;
+  }
+  
+  p::first-letter { 
+
+color:rgb(3, 61, 29); 
+
+font-size: 1.3em; 
+
+font-weight: bold; 
+
+line-height: 1; 
+
+} 
+  a:link  { 
+      color: whitesmoke }   
+a:visited {
+     color: purple }  
+a:hover   {
+     color: green } 
+a:active  {
+     color:orange }   
+  
+  main{
+      margin-top: 10%;
+      
+      
+  }
+
+  h1{
+    font-size: 32px;
+
+    
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+ section p{
+    padding: 20px;
+    transition: 1s;
+    text-align: center;
+
+  }
+  #aboutUs-img{
+    max-width: 30% ;
+    border-radius: 10px;
+      
+   }
+ .heading-article{
+  display: inline-flex;
+  margin-top: 50px;
+
+
+ }
+ section p:hover   {
+      transform: scale(1.1);
+    z-index: 2;
+    padding: 20px 20px;
+    margin-top: 10px;
+    } 
+    article img{
+      display: block;
+      max-width: 60% ;
+      border-radius: 10px;
+      margin-top: 10px;
+      aspect-ratio: 3/2;
+      margin-left: auto;
+      margin-right: auto;
+    }
+     
+  h2{
+    font-size: 22px;
+
+  }
+  section{
+      display: flex;
+      margin-bottom: 30px;
+  }
+  article{
+      flex: 1;
+  }
+   div > img{
+      display: block;
+      margin: 0px auto;
+      min-height: auto;
+    max-width: 10vw;
+
+  }
+  footer{
+      display: flex;
+
+  }
+  footer div {
+      flex: 1;
+  }
+  section{
+    margin-bottom: 10%;
+  }
+  @media screen and (max-width:600px) {
+      section{
+         flex-direction: column;
+         text-align: center;
+      }
+     
+    section p{
+    font-size: 15px;
+
+    }
+     section p:hover   {
+      transform: none;
+    } 
+    div p{
+    font-size: 10px;
+
+    }
+    .heading-article{
+      display: inline-flex;
+  flex-direction: column;    
+    
+     }
+    
+  }
